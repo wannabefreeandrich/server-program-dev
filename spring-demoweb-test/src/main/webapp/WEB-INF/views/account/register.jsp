@@ -36,7 +36,7 @@
 		            <tr>
 		                <th><spring:message code="register.id" /></th>
 		                <td>
-		                    <input type="text" id="memberId" name="memberid" style="width:280px" />
+		                    <input type="text" id="memberId" name="memberId" style="width:280px" />
 		                    <br>
 		                    <form:errors path="memberId" cssClass="error" /><!-- BindingResult에 등록된 오류 메시지 표시 -->
 		                </td>

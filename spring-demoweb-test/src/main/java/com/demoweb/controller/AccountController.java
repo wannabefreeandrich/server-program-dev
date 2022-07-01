@@ -41,7 +41,7 @@ public class AccountController {
 		return "redirect:login";
 	}
 	
-	@GetMapping(path = { "/login2" })
+	@GetMapping(path = { "/login" })
 	public String showLoginForm() {
 		
 		return "account/login";
